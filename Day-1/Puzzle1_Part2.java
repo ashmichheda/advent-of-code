@@ -13,7 +13,7 @@ public class Puzzle1_Part2 {
 		
 		HashSet<Integer> value = new HashSet<>();
 		try {
-			reader = new BufferedReader(new FileReader("D:\\AshmiD\\ASHMI\\GitHub\\advent-of-code-2018\\Puzzle-1\\input.txt"));
+			reader = new BufferedReader(new FileReader("input.txt"));
 			String line = reader.readLine();
 			outer: while(true) {
 				while(line != null) {
@@ -27,7 +27,7 @@ public class Puzzle1_Part2 {
 					line = reader.readLine();
 					
 				}
-				reader = new BufferedReader(new FileReader("D:\\AshmiD\\ASHMI\\GitHub\\advent-of-code-2018\\Puzzle-1\\input.txt"));
+				reader = new BufferedReader(new FileReader("input.txt"));
 				line = reader.readLine();
 			}
 			 

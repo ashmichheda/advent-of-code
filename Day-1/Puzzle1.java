@@ -11,7 +11,7 @@ public class Puzzle1 {
 		BufferedReader reader;
 		int sum = 0;
 		try {
-			reader = new BufferedReader(new FileReader("D:\\AshmiD\\ASHMI\\GitHub\\advent-of-code-2018\\Puzzle-1\\input.txt"));
+			reader = new BufferedReader(new FileReader("input.txt"));
 			String line = reader.readLine();
 			while(line != null) {
 				sum += Integer.parseInt(line);

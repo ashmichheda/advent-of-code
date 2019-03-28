@@ -21,7 +21,7 @@ public class Puzzle2 {
 		boolean twoOnce = false, threeOnce = false;
 		BufferedReader reader;
 		try {
-			reader = new BufferedReader(new FileReader("D:\\AshmiD\\ASHMI\\GitHub\\advent-of-code-2018\\Day-2\\input.txt"));
+			reader = new BufferedReader(new FileReader("input.txt"));
 			String line = reader.readLine();
 			
 			while(line != null) {

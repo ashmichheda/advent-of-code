@@ -11,6 +11,7 @@ public class Puzzle1 {
 		BufferedReader reader;
 		int sum = 0;
 		try {
+			// Add the relevant your local file path
 			reader = new BufferedReader(new FileReader("input.txt"));
 			String line = reader.readLine();
 			while(line != null) {

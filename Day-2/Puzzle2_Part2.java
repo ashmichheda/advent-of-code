@@ -11,7 +11,7 @@ public class Puzzle2_Part2 {
 		// Compare 2 words letter by letter
 		// fileContent reads the entire file into a String 
 		@SuppressWarnings("resource")
-		String fileContent = new Scanner(new File("D:\\AshmiD\\ASHMI\\GitHub\\advent-of-code-2018\\Day-2\\input.txt"))
+		String fileContent = new Scanner(new File("input.txt"))
 				.useDelimiter("\\Z").next();
 		
 		String commonString = getCommonString(fileContent);
@@ -46,21 +46,7 @@ public class Puzzle2_Part2 {
 			}
 		}
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		return null;
+	return "Not Found";
 	}
 
 }

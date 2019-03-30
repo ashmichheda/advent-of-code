@@ -10,7 +10,6 @@ public class Puzzle1_Part2 {
 	public static void main(String[] args) {
 		BufferedReader reader;
 		int sum = 0;
-		
 		HashSet<Integer> value = new HashSet<>();
 		try {
 			reader = new BufferedReader(new FileReader("input.txt"));
@@ -33,9 +32,7 @@ public class Puzzle1_Part2 {
 			 
 		}
 		catch(IOException e) {
-			
+			System.out.println("An Exception occurred! "+e.printStackTrace());		
 		}
-
 	}
-
 }

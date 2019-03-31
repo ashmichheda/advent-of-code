@@ -34,7 +34,8 @@ public class Puzzle3_Part2 {
 						fabric.put(i + "," + j, code);
 												
 					else {
-						
+						// if an inch has already been claimed, then it cannot be the answer
+						// and neither the code that had previously claimed it
 						claimed = false;
 						int otherCode = fabric.get(i+ "," +j);
 						codes.put(otherCode, false);

@@ -32,7 +32,7 @@ public class Puzzle1_Part2 {
 			 
 		}
 		catch(IOException e) {
-			System.out.println("An Exception occurred! "+e.printStackTrace());		
+			e.printStackTrace();		
 		}
 	}
 }

@@ -22,7 +22,7 @@ public class Puzzle1 {
 			System.out.println(sum);
 		}
 		catch(IOException e) {
-			
+			e.printStackTrace();
 		}
 
 	}

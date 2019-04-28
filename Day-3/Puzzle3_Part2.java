@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class Puzzle3_Part2 {
 
 	public static void main(String[] args) throws FileNotFoundException {
+		// ADD INPUT FILE PATH
 		@SuppressWarnings("resource")
 		String fileContent = new Scanner(new File("input.txt"))
 				.useDelimiter("\\Z").next();
